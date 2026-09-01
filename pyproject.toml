@@ -1,0 +1,10 @@
+[project]
+name = "llm-tool-calling"
+version = "0.1.0"
+description = "Python script that calls an LLM API, lets the model use local tools, and feeds the tool results back to the model."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.66.3",
+    "python-dotenv>=1.0.1",
+]
